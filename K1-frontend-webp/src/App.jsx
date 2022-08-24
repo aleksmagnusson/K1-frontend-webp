@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { io } from "socket.io-client"
 import './App.css'
 
-let socket = io("http://localhost:4000")
+let socket = io("https://k1-backend-webp.herokuapp.com/")
 
 function App() {
   const [socketId, setSocketId] = useState("");
